@@ -21,8 +21,12 @@ public class Database {
             System.out.println("Failed Connection");
         }
     }
-    public void insert(){
-        String sqlString = "";
+    public void insertIntoProduct(){
+        String sqlString = "INSERT INTO `product` (product_id, product_name, product_price,isReserved,wish_list_id)Values();";
+
+    }
+    public void insertIntoWishList(){
+        String sqlString = "INSERT INTO `wish_list` ()values()";
 
     }
 }
