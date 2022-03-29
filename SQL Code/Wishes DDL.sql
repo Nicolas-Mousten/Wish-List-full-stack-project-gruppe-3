@@ -1,3 +1,5 @@
+create database if not exists wishlists;
+
 use wishlists;
 drop table if exists `product`;
 drop table if exists`wish_list`;
