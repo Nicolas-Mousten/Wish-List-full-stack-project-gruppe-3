@@ -1,6 +1,6 @@
 package com.example.wishes;
 
-import com.example.wishes.Services.Database;
+import com.example.wishes.Repositories.Database;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

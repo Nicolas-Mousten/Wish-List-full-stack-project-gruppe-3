@@ -1,4 +1,4 @@
-package com.example.wishes.Services;
+package com.example.wishes.Repositories;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,5 +20,9 @@ public class Database {
         catch(Exception e){
             System.out.println("Failed Connection");
         }
+    }
+    public void insert(){
+        String sqlString = "";
+
     }
 }
