@@ -9,7 +9,6 @@ public class WishesApplication {
 
     public static void main(String[] args) {
         Database db = new Database("jdbc:mysql://localhost:3306/wishlists", "root","Uvnx3gxc");
-        db.dataBaseInitializer();
         SpringApplication.run(WishesApplication.class, args);
     }
 
